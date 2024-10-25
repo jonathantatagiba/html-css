@@ -7,3 +7,5 @@ Seguem-se esses passo-a-passos:
 1- Mudança do código
 2- Commit to main com uma descrição
 3- Push origin
+
+Excluir: 1- Local 2- Remoto
