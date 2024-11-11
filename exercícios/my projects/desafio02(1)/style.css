@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:'idroid';
+    src: url('..fontes/idroid.otf') format /*'../ -> pasta anterior'*/('opentype');
+}
+
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', 'cursive';
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrão);
+    margin: 0%;
+}
+
+header {
+    background: linear-gradient(to bottom, var(--cor03), var(--cor04));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header > p {
+    font-family: var(--fonte-padrão);
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow:  2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+
+h1#titulo1 {
+    display: block;
+    text-align: center;
+    font-family:'idroid';
+    color: white;
+    margin: 0px;
+    border: 0px;
+    padding: 40px;
+}
+
+h2#subtitulo {
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    width: 714px;
+    height: 55px;
+}
+
+nav#navegacao {
+    padding: 7px;
+    text-align: center;
+    background-color: #034816;
+    
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto; /*se adpta ao formato de tela */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+}
+
+main h1 { /* tudo o que for h1 em main*/
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+}
+
+main h2 {
+    font-family: var(--fonte-android);
+    color: var(--cor04);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+main img { 
+    width: 100%; /* img se adpta à tela*/
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto; /*centraliza automaticamente*/
+}
+
+div.video {
+    background-color: var(--cor5);
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5% ;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black ;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside > h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+a.externo::after {
+    content: '\00A0\1F517'; /*'\00A0\ COLOCA UM ESPAÇO ANTES'*/
+}
+
+nav > a{
+    margin: 40px;
+    color: white;
+    text-decoration: none; /*ficar sem o sublinhado*/
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: .5s;
+    
+
+}
+
+nav > a:hover{
+    border: 1px solid white;
+    text-decoration: underline;
+    
+}
+
+h1.titulo2{
+    font-family:'idroid' ;
+    padding: 5px;
+    text-indent: 15px;
+}
+
+h2.titulo2{
+    display: inline-block;
+    font-family:'idroid' ;
+    padding: 5px;
+    text-indent: 0px;
+}
+
+footer {
+    background-color: #034816;
+    
+}
+
+p#foot {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 0px;
+    margin: 0px;
+    padding:10px;
+}
+
+p.paragrafo {
+    color: #000000;
+    border: 10px;
+    margin: 5px;
+    text-indent: 35px;
+}
+
+div.droid {
+    display: inline-block;
+    padding: 6px 5px 5px 5px;
+
+}
+
+
+  

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+@media (max-width: 820px) {
+    header {
+        
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        
+        
+    }
+
+    div#selo {
+        height: 90px;
+    }
+
+   
+  }
+
+
+header {
+    background: linear-gradient(45deg, rgb(3, 2, 26) 0%, rgba(9,9,121,1) 60%);
+    display: flex; /**/
+    justify-content: space-between;/**/
+    align-items: center;/**/
+    padding: 1% 20px;
+    width: 100%;
+    height: 100px;
+    min-height: 150px;
+
+
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+}
+    
+
+div#nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+    
+
+}
+ 
+img {
+    width: 100px;
+    height: 100px;
+}
+
+section {
+    display: table;
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    
+}
+
+h1#JK {
+    font-size: 230px;
+    padding: 60px;
+    padding-bottom: 50px
+    
+}
+
+h2#SD {
+    font-size: 50px;
+}
+
+h2#CASAMENTO {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+h2#DATA {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+    
+}
+
+article {
+    display: table;
+    width: 50%;
+    height: 100%;
+}
+
+img#nos {
+    width: 100%;
+    height: auto;
+
+}
+
+div#foto {
+    height: 1px;
+}
+
+div#verso {
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}

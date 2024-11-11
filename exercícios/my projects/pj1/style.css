@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(64, 84, 84);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: monospace;
+    color: rgb(225, 0, 255);            
+    border-right: 10px solid;
+    width: 20ch ;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 0.5s steps(11), blinking 0.5s infinite step-end alternate;
+    text-align:start;
+}
+@keyframes typing{
+    from {
+        width: 0 ;
+    }
+}
+@keyframes blinking {
+    50% { 
+        border-color:rgb(0, 0, 0);
+    }
+}
+.texto{
+    color: white;
+    padding: 20px 15px;
+    
+    
+}
+.forms{
+    display: flex;
+    width: 10px;
+    height: 50px;
+    align-items: 10;
+}
+.square{
+    width: 20px;
+    height: 20px;
+}
