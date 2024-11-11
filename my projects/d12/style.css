@@ -19,6 +19,8 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    position: sticky; /*gruda p header*/
+    top: -1px;
     
 }
 
