@@ -40,50 +40,35 @@ body {
 
 header {
     background: linear-gradient(45deg, rgb(3, 2, 26) 0%, rgba(9,9,121,1) 60%);
-    display: flex; /**/
-    justify-content: space-between;/**/
-    align-items: center;/**/
-    padding: 1% 20px;
+     /*display: flex;*/
+   /* justify-content: space-between;*/
+    /*align-items: center;*/
+    /*padding: 1% 20px;*/
     width: 100%;
     height: 100px;
     min-height: 150px;
     position: sticky;
-    top: -1px;
-
-
-    
+    top: -1px
 }
 
-nav ul {
-    
+ul {
     position: absolute;
-    width: 200px;
-    list-style: none;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
+    top: 50%;
+    left: 60%;
 }
-
-nav ul li a {
-    text-decoration: none;
+menu li {
+    display: inline-block; /*fica tudo na horizontal*/
+    padding-right: 20px;
     
 }
-    
 
-div#nav {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-
-}
-
-a {
+menu li a {
     color: white;
     text-decoration: none;
     
     
-
 }
+    
  
 img {
     width: 100px;
